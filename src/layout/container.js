@@ -30,7 +30,6 @@ export default ({ children }) => {
         <link rel="stylesheet"
               type="text/css"
               href="css/style.css" />
-
       </Helmet>
     </>
   )
