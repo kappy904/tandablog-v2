@@ -11,9 +11,11 @@ export default ({ children }) => {
           <div className="main-container">
             <div className="container">
               <div className="row flex-column">
-                  <Nav />
+                <Nav />
+                <div className="row">
                   {children}
-                  <Footer />
+                </div>
+                <Footer />
               </div>
             </div>
           </div>

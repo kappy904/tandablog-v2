@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 export default () => {
   return (
-    <nav className="navbar navbar-expand-lg thw-navbar-light">
+    <nav className="navbar navbar-expand-lg thw-navbar-light mb-2">
       <Link className="thw-logo"
             to="/">
         <img src="images/logo.png"

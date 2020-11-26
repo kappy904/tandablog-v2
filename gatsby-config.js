@@ -6,13 +6,17 @@
 
 module.exports = {
   siteMetadata: {
-    title: "T & a Blog",
-    author: "Tasha Dilraj",
-    description: "T & a Blog is my creative space to spill the tea on all things travel, beauty, food and more. I&rsquo;m here to share my adventures, ramblings, tips and thoughts about anything and everything on this roller coaster ride called life.",
-    siteUrl: ""
-
+    title: `T & a Blog`,
   },
   plugins: [
-    "gatsby-plugin-sass"
-  ]
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
+  ],
 }
