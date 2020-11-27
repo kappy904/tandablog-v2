@@ -1,8 +1,11 @@
 import React from "react"
 import Container from "../layout/container"
+import CardListBeauty from "../components/card-list-beauty"
 
 export default () => {
   return (
-    <Container> Beauty </Container>
+    <Container>
+      <CardListBeauty />
+    </Container>
   )
 }

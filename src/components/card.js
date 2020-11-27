@@ -6,7 +6,7 @@ export default (props) => {
     <div className="col-lg-6 col-md-6 mb-6">
       <div className="post-standard-view post-standard-list2-style">
         <div className="featured-image">
-          <a href="lifestyle/lets-talk-reusable-pads.html">
+          <a href={props.slug}>
             <img className="img-fluid right-image"
                  src={props.image}
                  alt={props.altTextImage} />
@@ -14,10 +14,10 @@ export default (props) => {
         </div>
         <div className="post-content">
           <div className="post-header">
-            <span className="category-meta"><a href="#"
+            <span className="category-meta"><a href={props.slug}
                                                rel="category tag">{props.category}</a></span>
             <h3 className="entry-post-title">
-              <a href="lifestyle/lets-talk-reusable-pads.html">{props.title}</a>
+              <a href={props.slug}>{props.title}</a>
             </h3>
           </div>
 
@@ -32,7 +32,7 @@ export default (props) => {
             {props.blurb}
           </div>
           <div className="post-btn">
-            <a href="lifestyle/lets-talk-reusable-pads.html"
+            <a href={props.slug}
                className="btn btn-primary">Read
               More</a>
           </div>

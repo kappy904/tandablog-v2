@@ -1,8 +1,9 @@
 import React from "react"
 import Container from "../layout/container"
+import CardListLifestyle from "../components/card-list-lifestyle"
 
 export default () => {
   return (
-    <Container> Lifestyle </Container>
+    <Container>  <CardListLifestyle /> </Container>
   )
 }

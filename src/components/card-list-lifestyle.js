@@ -4,8 +4,10 @@ import Card from "./card"
 
 export default () => {
   return <StaticQuery
+
     query={graphql`query {
-allMarkdownRemark( sort: { fields: [frontmatter___date], order:DESC}) {
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 10, 
+    filter: { frontmatter: { category: { eq: "Lifestyle" } } }) {
   edges {
     node {
       id

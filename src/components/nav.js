@@ -6,7 +6,7 @@ export default () => {
     <nav className="navbar navbar-expand-lg thw-navbar-light mb-2">
       <Link className="thw-logo"
             to="/">
-        <img src="images/logo.png"
+        <img src="/images/logo.png"
              alt="logo" />
       </Link>
 
@@ -14,6 +14,7 @@ export default () => {
         <ul className="navbar-nav">
           <li className="nav-item dropdown">
             <Link className="nav-link"
+                  activeClassName="active"
                   to="/">
               Home
             </Link>
@@ -21,22 +22,27 @@ export default () => {
 
           <li className="nav-item dropdown">
             <Link className="nav-link"
+                  activeClassName="active"
                   to="/travel">Travel </Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link"
+                  activeClassName="active"
                   to="/skin">Skin</Link>
           </li>
           <li className="nav-item">
             <Link className="nav-link"
+                  activeClassName="active"
                   to="/beauty">Beauty</Link>
           </li>
-          <li className="nav-item dropdown">
+          <li className="nav-item">
             <Link className="nav-link"
+                  activeClassName="active"
                   to="/lifestyle">Lifestyle</Link>
           </li>
-          <li className="nav-item dropdown">
-            <Link className="nav-link active"
+          <li className="nav-item">
+            <Link className="nav-link"
+                  activeClassName="active"
                   to="/about-me">About Me</Link>
           </li>
         </ul>

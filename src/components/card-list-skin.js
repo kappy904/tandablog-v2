@@ -5,7 +5,8 @@ import Card from "./card"
 export default () => {
   return <StaticQuery
     query={graphql`query {
-allMarkdownRemark( sort: { fields: [frontmatter___date], order:DESC}) {
+  allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}, limit: 10, 
+    filter: { frontmatter: { category: { eq: "Skin" } } }) {
   edges {
     node {
       id
@@ -24,8 +25,8 @@ allMarkdownRemark( sort: { fields: [frontmatter___date], order:DESC}) {
     }
   }
 }
-`
-    }
+
+`}
     render={data => (
       <div className="row">
         {data.allMarkdownRemark.edges.map(({ node }) => (

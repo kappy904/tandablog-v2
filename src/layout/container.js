@@ -25,13 +25,13 @@ export default ({ children }) => {
       <Helmet>
         <link rel="stylesheet"
               type="text/css"
-              href="css/bootstrap.min.css" />
+              href="/css/bootstrap.min.css" />
         <link rel="stylesheet"
               type="text/css"
-              href="css/responsive.css" />
+              href="/css/responsive.css" />
         <link rel="stylesheet"
               type="text/css"
-              href="css/style.css" />
+              href="/css/style.css" />
       </Helmet>
     </>
   )
