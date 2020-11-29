@@ -6,9 +6,6 @@ import Helmet from "react-helmet"
 export default ({ children }) => {
   return (
     <>
-      <Helmet>
-        <script id="s9-sdk" async defer content="eaba251b587345a79454c27da5561b09" src="//cdn.social9.com/js/socialshare.min.js"></script>
-      </Helmet>
       <div className="inner-body-wrap">
         <div className="inner-body container">
           <div className="main-container">
