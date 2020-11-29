@@ -1,10 +1,11 @@
 ---
-title: "3 SPF's I love"
+title: "T & a Blog | 3 SPF's I love"
+description: "One of my biggest regrets with my skin growing up is that I did not use SPF religiously. Over the last 5 years, I’ve come to understand how important SPF is, as well as the importance of regular re-application throughout the day. I have tried and tested many sunscreens, and as a brown-skinned girl, I am often frustrated that many, if not most sunscreens always leave a white cast or an oily film on the skin. With mineral sunscreen, however, it is extremely difficult to find an SPF that does not leave a heavy white cast and when I get into the SPF’s I use below, you will see that I do prefer a mineral sunscreen over a chemical one. With content creators and YouTubers starting and engaging in conversations about representation, I’ve definitely noticed that there are more options available for POC than before. I’ve managed to come across a couple of sunscreens that work great for my skin tone. The ones below are my favourites."
 category: "Skin"
 date: "2020-01-09"
 image: "/images/spf-small.jpg"
+ogImage: "/images/og-spf.jpg"
 altTextImage: "Sunblocks"
-blurb: "One of my biggest regrets with my skin growing up is that I did not use SPF religiously. Over the last 5 years..."
 layout: "single"
 ---
 
