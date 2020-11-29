@@ -5,14 +5,14 @@ import { GatsbySeo } from "gatsby-plugin-next-seo"
 
 export default ({ data }) => {
   const post = data.markdownRemark
-
+  const url = typeof window !== 'undefined' ? window.location.href : ''
   return (
     <>
       <GatsbySeo
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         openGraph={{
-          url: `${window.location.href}`,
+          url: `${url}`,
           title: `T & a Blog | ${post.frontmatter.title}`,
           description: `${ post.frontmatter.description }`,
           images: [

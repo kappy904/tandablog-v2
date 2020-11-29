@@ -1,7 +1,8 @@
 import React from "react"
 
 export default () => {
-  const fabShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`
+  const url = typeof window !== 'undefined' ? window.location.href : ''
+  const fabShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`
   return (
     <footer className="footer">
       <div className="container">
