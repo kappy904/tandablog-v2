@@ -10,20 +10,20 @@ export default ({ data }) => {
     <>
       <GatsbySeo
         title={post.frontmatter.title}
-        description='This example uses more of the available config options.'
+        description={post.frontmatter.description}
         openGraph={{
-          url: "https://tandablog.com/",
-          title: `${post.frontmatter.title}`,
+          url: `${window.location.href}`,
+          title: `T & a Blog | ${post.frontmatter.title}`,
           description: `${ post.frontmatter.description }`,
           images: [
             {
               url: `${ post.frontmatter.ogImage }`,
-              width: 800,
-              height: 600,
-              alt: "Og Image Alt"
+              width: 486,
+              height: 254,
+              alt: `${ post.frontmatter.title }`
             }
           ],
-          site_name: "T &amp; a blog"
+          site_name: "T & a blog"
         }}
       />
       <Container>
@@ -56,6 +56,7 @@ export const query = graphql`
       html
       frontmatter {
         title
+        category
         description
         ogImage
         imageA
