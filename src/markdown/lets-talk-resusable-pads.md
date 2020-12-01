@@ -1,5 +1,5 @@
 ---
-title: "Let’s talk reusable pads"
+title: "T & a Blog | Let’s talk reusable pads"
 category: "Lifestyle"
 date: "2017-08-10"
 image: "/images/pads-small.jpg"
@@ -8,6 +8,7 @@ imageB: "/images/reusable-pad-2.jpg"
 altTextImage: "Reusable pads"
 ogImage: "/images/og-pads.jpg"
 layout: "single"
+shareUrl: "https://www.facebook.com/sharer/sharer.php?u=https://tandablog.com/lets-talk-resusable-pads//"
 ---
 
 In an effort to reduce my waste and live more sustainably, I purchased a pack of reusable pads. I’ve seen women talk about their experiences with menstrual cups, reusable pads, and period panties and I decided to try out the reusable pads. I purchased mine from Amazon from a brand called Teamoy, and it came in a pack of 6. The pads itself are so pretty and feel amazing! I have some thoughts and opinions based on my experience using it for the first time, and here they are:

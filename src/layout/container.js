@@ -1,6 +1,5 @@
 import React from "react"
 import Nav from "../components/nav"
-import Footer from "../components/footer"
 import Helmet from "react-helmet"
 
 export default ({ children }) => {
@@ -15,7 +14,6 @@ export default ({ children }) => {
                 <div className="row">
                   {children}
                 </div>
-                <Footer />
               </div>
             </div>
           </div>

@@ -1,8 +1,6 @@
 import React from "react"
 
-export default () => {
-  const url = typeof window !== 'undefined' ? window.location.href : ''
-  const fabShareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`
+export default (props) => {
   return (
     <footer className="footer">
       <div className="container">
@@ -12,7 +10,7 @@ export default () => {
               <ul className="footer-social thw-share">
                 <p>Let's socialise</p>
                 <li><a href="https://www.instagram.com/tashadilraj/">I</a></li>
-                <li><a href={fabShareUrl}>FB</a></li>
+                <li><a href={props.shareUrl}>FB</a></li>
               </ul>
               <div className="thw-heart">See you soon!</div>
             </div>

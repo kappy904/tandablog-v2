@@ -2,6 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import Container from "../layout/container"
 import { GatsbySeo } from "gatsby-plugin-next-seo"
+import Footer from "../components/footer"
 
 export default ({ data }) => {
   const post = data.markdownRemark
@@ -13,7 +14,7 @@ export default ({ data }) => {
         description={post.frontmatter.description}
         openGraph={{
           url: `${url}`,
-          title: `T & a Blog | ${post.frontmatter.title}`,
+          title: `${post.frontmatter.title}`,
           description: `${ post.frontmatter.description }`,
           images: [
             {
@@ -45,6 +46,7 @@ export default ({ data }) => {
                  width="100%" />
           </div>
         </div>
+        <Footer shareUrl={post.frontmatter.shareUrl}/>
       </Container>
     </>
   )
@@ -61,6 +63,7 @@ export const query = graphql`
         ogImage
         imageA
         imageB
+        shareUrl
       }
     }
   }
