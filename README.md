@@ -4,5 +4,5 @@
   </a>
 </p>
 <h1 align="center">
- T &  Blog v2 with Gatsbys + React
+ T &  Blog v2 with Gatsby + React
 </h1>
